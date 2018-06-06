@@ -32,7 +32,7 @@ public class details extends AppCompatActivity {
 
         mWebview.getSettings().setJavaScriptEnabled(true);
         mWebview.getSettings().setBuiltInZoomControls(true);
-//        mWebview.getSettings().setAllowFileAccess(true);
+       mWebview.getSettings().setAllowFileAccess(true);
         mWebview.setWebViewClient(new WebViewClient());
         mWebview.setHorizontalScrollBarEnabled(true);
         mWebview.loadUrl(Last_URL);
